@@ -11,4 +11,4 @@
 #
 # by oth-body
 # Based on Coinbase bitbar plugin by Mat Ryer and xbar plugin by Roberto Santacroce Martins
-echo -n "m₿TC$"; curl -s "https://api.bitfinex.com/v1/pubticker/BTCUSD" | egrep -o '"last_price":"[0-9]+(\.)?([0-9]{0,2}")?' | sed 's/"last_price"://' | sed 's/\"//g' | awk '{printf "%.2f", $1/1000}'
+echo -n "m₿TC $"; curl -s "https://api.bitfinex.com/v1/pubticker/BTCUSD" | egrep -o '"last_price":"[0-9]+(\.)?([0-9]{0,2}")?' | sed 's/"last_price"://' | sed 's/\"//g' | awk '{printf "%.2f", $1/1000}'
