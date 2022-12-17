@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Shows last BTC price formatted as mBTC(in USD) on Bitfinex BTCUSD Order Book.
+# Shows last BTC price formatted as mBTC(0.001 BTC) with information pulled from Bitfinex BTCUSD Order Book.
 #
 # <xbar.title>mBTC price</xbar.title>
 # <xbar.version>v1.0</xbar.version>
