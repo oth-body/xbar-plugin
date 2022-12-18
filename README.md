@@ -5,7 +5,7 @@ These are Xbar plugins that I've made that I hope others find useful.
 
 ## How to use them
 
-  * Just drop the plugin into your xbar plugins folder (if you have the repo, why not use the `Enabled` folder?)
+  * Just drop the plugin into your xbar plugins folder 
   * Make sure it's executable (in Terminal, do `chmod +x plugin.sh`)
   * Then choose `Refresh all` from the xbar menus
 
